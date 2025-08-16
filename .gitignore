@@ -1,4 +1,20 @@
-*.log
-*.tmp
+# Visual Studio junk
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
 bin/
 obj/
+[Bb]uild/
+[Ll]og/
+
+# Temporary files
+*.vsidx
+*.lock.json
+
+# OS-specific
+Thumbs.db
+.DS_Store
