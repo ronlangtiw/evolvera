@@ -1,0 +1,7 @@
+{
+  "river": {
+    "yield_modifiers": {
+      "food": 0.2
+    }
+  }
+}
