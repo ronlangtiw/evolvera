@@ -1,7 +1,8 @@
 # DDR-0001: Emergent Complexity as a System-Wide Design Constraint
 
-- **Status:** Proposed (formal DDR ratification pending)
+- **Status:** Accepted
 - **Date:** 2026-11-13
+- **Accepted:** 2026-11-13
 - **Decision owner:** Project owner
 - **Area:** All simulation systems; architecture; content generation; diagnostics
 - **Related design sections:** `Evolvera_Design_Updated_2026-11-13.md` → `Design Update: November 11–13, 2026` → `1. Foundational Design Rule — EVO-DESIGN-001`
@@ -10,7 +11,7 @@
 
 ## Context and problem
 
-Evolvera's intended distinguishing feature is emergent civilization development driven by interacting rules, circumstances, and decisions. The updated design document records **EVO-DESIGN-001** as an **approved principle** on November 11, 2026: complexity should arise from interactions between simple systems, not from continuously adding variables. This DDR formalizes that existing principle for repository governance; **Proposed** here means the DDR artifact itself still requires the owner's review, not that the underlying principle was never accepted.
+Evolvera's intended distinguishing feature is emergent civilization development driven by interacting rules, circumstances, and decisions. The updated design document records **EVO-DESIGN-001** as an **approved principle** on November 11, 2026: complexity should arise from interactions between simple systems, not from continuously adding variables. This DDR formalizes that existing principle for repository governance and establishes it as the foundational constraint for all future development.
 
 As new subsystems are contemplated (player autonomy, culture and loyalty, discovery, planetary history), there is a risk of adding separate metrics and scripted outcomes that duplicate behavior or make consequences opaque. The existing C# prototype models six knowledge domains, population, settlement legitimacy, events, resources, and influence, but does not itself establish that the full emergent-system philosophy has been implemented or tested.
 
@@ -86,3 +87,4 @@ These are proposed verification criteria, not claims that existing code already 
 | --- | --- | --- |
 | 2026-11-11 | EVO-DESIGN-001 recorded as an approved design principle in the updated design document | Preserve foundational emergent-complexity direction |
 | 2026-11-13 | Formal DDR drafted as Proposed | Begin repository-tracked decision governance; pending owner approval of record wording |
+| 2026-11-13 | Status changed from Proposed to Accepted | Owner approval received; establishes foundational constraint for all future development |
