@@ -1,10 +1,25 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<LangVersion>latestMajor</LangVersion>
+		<!-- Optional niceties -->
+		<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+		<RootNamespace>Evolvera.SimCore</RootNamespace>
+		<AssemblyName>Evolvera.SimCore</AssemblyName>
+	</PropertyGroup>
+
+	<!-- You normally do NOT need explicit <Compile Include="..."> in SDK-style projects.
+       Wildcards already include all *.cs under this directory and its subfolders. -->
+
+	<!-- (Optional) Always copy the saves folder if present so it's next to the exe -->
+	<ItemGroup>
+		<None Include="saves\**\*">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
 
 </Project>
